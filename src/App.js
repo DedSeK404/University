@@ -1,23 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import "bootstrap/dist/css/bootstrap.min.css";
+import NavBar from "./Components/NavBar";
+import Presentation from "./Components/Presentation";
+import { useState } from "react";
+import MenuModal from "./Components/MenuModal";
+import Status from "./Components/Status";
 
 function App() {
+  const [show, setShow] = useState(false);
+  const handleShow = () => setShow(true);
+  const handleClose = () => setShow(false);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={{ height: "200vh" }}>
+      <NavBar handleShow={handleShow} />
+      <Presentation />
+      <MenuModal show={show} handleClose={handleClose}/>
+      <Status/>
     </div>
   );
 }

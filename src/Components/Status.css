@@ -1,0 +1,76 @@
+.content {
+  width: 100%;
+  border: 1px solid black;
+  background-color: #6c87ba;
+  padding: 30px;
+  border-radius: 4px;
+  color: white;
+  text-indent: 50px;
+  height: 100%;
+  margin-top: 15px;
+}
+.longText {
+  max-height: 0;
+  overflow: hidden;
+  display: inline-block;
+  transition: max-height 0.4s;
+  color: white;
+}
+.expanded {
+  max-height: 50rem;
+  transition: max-height 2s;
+}
+.title {
+  color: "#6c87ba";
+}
+.line-clamp {
+  width: 100%;
+  border: 1px solid black;
+  background-color: #6c87ba;
+  padding: 2rem;
+  border-radius: 4px;
+  color: white;
+  text-indent: 50px;
+  margin-top: 15px;
+  height: 100%;
+}
+.p {
+  width: 100%;
+  padding: 2rem;
+  border-radius: 4px;
+  border: #6c87ba 1px solid;
+  color: #6c87ba;
+  font-size: 2rem;
+  margin-top: 25px;
+}
+.grid-item {
+  grid-column: span 3;
+  height: fit-content;
+  
+}
+.stack {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 80%;
+  margin: auto;
+  justify-content: center;
+  grid-gap: 20px;
+}
+
+.grid23 {
+  grid-row: span 2;
+}
+.grid10 {
+  grid-row: span 2;
+}
+.grid4 {
+  grid-row: span 2;
+}
+.grid28 {
+  grid-column: span 2;
+ 
+}
+.grid30 {
+  grid-column: span 3;
+
+}

@@ -1,0 +1,58 @@
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+  color: white;
+  width: fit-content;
+  cursor: pointer;
+  font-size: 2rem;
+  user-select: none;
+  font-family: "Times New Roman";
+}
+
+.hover-underline-animation:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  transform-origin: bottom left;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+  cursor: pointer;
+}
+.poem {
+  overflow: scroll;
+  scrollbar-color: "#464a4f" "#292c2f";
+  scrollbar-width: thin;
+  mask-image: linear-gradient(
+    transparent,
+    #000 20%,
+    #000 70%,
+    transparent 100%
+  );
+}
+.Btn {
+  border-radius: 50%;
+  background-color: transparent;
+  border-color: rgb(87, 87, 87);
+  transition: 0.3s;
+  color: white;
+  width: 40px;
+  height: 40px;
+}
+.Btn:hover {
+  border-radius: 50%;
+  background-color: transparent;
+  border-color: rgb(226, 226, 226);
+  transition: 0.3s;
+  color: white;
+  width: 40px;
+  height: 40px;
+}
