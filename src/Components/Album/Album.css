@@ -1,0 +1,142 @@
+.album {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 2%;
+  margin: auto;
+  justify-content: center;
+  grid-gap: 20px;
+  transition: max-height 0.4s;
+}
+.Pic11 {
+  width: 280px;
+  rotate: -10deg;
+  padding: 20px;
+  transition: 0.3s;
+}
+.Pic10 {
+  width: 240px;
+  rotate: -5deg;
+  padding: 20px;
+  transition: 0.3s;
+}
+.Pic9 {
+  width: 290px;
+  rotate: 2deg;
+  padding: 20px;
+  transition: 0.3s;
+}
+.Pic8 {
+  width: 300px;
+  rotate: 15deg;
+  padding: 20px;
+  transition: 0.3s;
+}
+.Pic7 {
+  width: 310px;
+  rotate: -10deg;
+  padding: 20px;
+  transition: 0.3s;
+}
+.Pic6 {
+  width: 270px;
+  rotate: 20deg;
+  padding: 20px;
+  transition: 0.3s;
+}
+.Pic5 {
+  width: 280px;
+  rotate: 13deg;
+  padding: 20px;
+  transition: 0.3s;
+}
+.Pic4 {
+  width: 220px;
+  rotate: 5deg;
+  padding: 20px;
+  transition: 0.3s;
+}
+.Pic3 {
+  width: 350px;
+  rotate: -2deg;
+  padding: 20px;
+  transition: 0.3s;
+}
+.Pic2 {
+  width: 250px;
+  rotate: 8deg;
+  padding: 20px;
+  transition: 0.3s;
+}
+.pic1 {
+  width: 250px;
+  rotate: 10deg;
+  padding: 20px;
+  transition: 0.3s;
+}
+
+.Pic11:hover {
+  width: 280px;
+  rotate: 0deg;
+  padding: 20px;
+  transition: 0.3s;
+}
+.Pic10:hover {
+  width: 240px;
+  rotate: 0deg;
+  padding: 20px;
+  transition: 0.3s;
+}
+.Pic9:hover {
+  width: 290px;
+  rotate: 0deg;
+  padding: 20px;
+  transition: 0.3s;
+}
+.Pic8:hover {
+  width: 300px;
+  rotate: 0deg;
+  padding: 20px;
+  transition: 0.3s;
+}
+.Pic7:hover {
+  width: 310px;
+  rotate: 0deg;
+  padding: 20px;
+  transition: 0.3s;
+}
+.Pic6:hover {
+  width: 270px;
+  rotate: 0deg;
+  padding: 20px;
+  transition: 0.3s;
+}
+.Pic5:hover {
+  width: 280px;
+  rotate: 0deg;
+  padding: 20px;
+  transition: 0.3s;
+}
+.Pic4:hover {
+  width: 220px;
+  rotate: 0deg;
+  padding: 20px;
+  transition: 0.3s;
+}
+.Pic3:hover {
+  width: 350px;
+  rotate: 0deg;
+  padding: 20px;
+  transition: 0.3s;
+}
+.Pic2:hover {
+  width: 250px;
+  rotate: 0deg;
+  padding: 20px;
+  transition: 0.3s;
+}
+.pic1:hover {
+  width: 250px;
+  rotate: 0deg;
+  padding: 20px;
+  transition: 0.3s;
+}
