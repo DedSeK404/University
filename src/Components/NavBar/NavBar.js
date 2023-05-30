@@ -2,9 +2,9 @@ import React, { useEffect, useState } from "react";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import "./NavBar.css";
-import MenuIcon from "../bars-solid.svg";
-import Search from "../magnifying-glass-solid.svg";
-import Logo from "../LogoOnly.svg";
+import MenuIcon from "../../bars-solid.svg";
+import Search from "../../magnifying-glass-solid.svg";
+import Logo from "../../LogoOnly.svg";
 
 const NavBar = ({handleShow}) => {
   const [style, setStyle] = useState("");

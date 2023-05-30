@@ -1,0 +1,55 @@
+.Tabcontainer {
+  background-color: #0e0e0e;
+  padding-top: 15%;
+  padding-bottom: 15%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.nav-pills li.active a:hover {
+  color: black !important;
+  transition: 0.5s !important;
+  display: flex;
+}
+
+.nav-pills .nav-link.active {
+  background-color: white !important;
+  color: black !important;
+  border-radius: 0% !important;
+  height: 30vh;
+  font-size: 1.5rem;
+  transition: 0.5s !important;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-pills a {
+  color: gray;
+  transition: 0.5s !important;
+  font-size: 1.3rem;
+  height: 30vh;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-pills a:hover {
+  color: white;
+  height: 30vh;
+  background-color: rgb(43, 43, 43) !important;
+  border-radius: 0% !important;
+  font-size: 1.5rem;
+  transition: 0.5s !important;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-column {
+  border-right: 1px white solid;
+  padding-right: 20px;
+  height: max-content;
+}

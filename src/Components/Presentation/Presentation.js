@@ -1,7 +1,7 @@
 import React from "react";
 import "./Presentation.css";
 import { motion } from "framer-motion";
-import Pic from "../Pic.jpg";
+import Pic from "../../Pic.jpg";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";

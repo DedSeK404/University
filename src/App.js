@@ -1,9 +1,11 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-import NavBar from "./Components/NavBar";
-import Presentation from "./Components/Presentation";
+import NavBar from "./Components/NavBar/NavBar";
+import Presentation from "./Components/Presentation/Presentation";
 import { useState } from "react";
-import MenuModal from "./Components/MenuModal";
-import Status from "./Components/Status";
+import Status from "./Components/Status/Status";
+import Adherents from "./Components/Adherents/Adherents";
+import Bureau from "./Components/Bureau/Bureau";
+import MenuModal from "./Components/Menu/MenuModal";
 
 function App() {
   const [show, setShow] = useState(false);
@@ -13,8 +15,10 @@ function App() {
     <div style={{ height: "200vh" }}>
       <NavBar handleShow={handleShow} />
       <Presentation />
-      <MenuModal show={show} handleClose={handleClose}/>
-      <Status/>
+      <MenuModal show={show} handleClose={handleClose} />
+      <Status />
+      <Bureau />
+      <Adherents />
     </div>
   );
 }

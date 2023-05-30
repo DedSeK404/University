@@ -1,8 +1,7 @@
 import React from "react";
-import "./MenuModal.css";
+import "../Menu/MenuModal.css";
 import Offcanvas from "react-bootstrap/Offcanvas";
-import Logo from "../LogoOnly.svg";
-
+import Logo from "../../LogoOnly.svg";
 
 const MenuModal = ({ show, handleClose }) => {
   return (

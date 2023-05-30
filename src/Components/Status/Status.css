@@ -1,6 +1,6 @@
 .content {
   width: 100%;
-  border: 1px solid black;
+
   background-color: #6c87ba;
   padding: 30px;
   border-radius: 4px;
@@ -9,6 +9,7 @@
   height: 100%;
   margin-top: 15px;
 }
+
 .longText {
   max-height: 0;
   overflow: hidden;
@@ -25,7 +26,7 @@
 }
 .line-clamp {
   width: 100%;
-  border: 1px solid black;
+
   background-color: #6c87ba;
   padding: 2rem;
   border-radius: 4px;
@@ -46,7 +47,6 @@
 .grid-item {
   grid-column: span 3;
   height: fit-content;
-  
 }
 .stack {
   display: grid;
@@ -55,6 +55,19 @@
   margin: auto;
   justify-content: center;
   grid-gap: 20px;
+  transition: max-height 0.4s;
+}
+.expandedBox {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 80%;
+  margin: auto;
+  justify-content: center;
+  grid-gap: 20px;
+  height: 70vh;
+  overflow: hidden;
+  mask-image: linear-gradient(transparent, #000 0%, #000 70%, transparent 100%);
+  transition: max-height 0.4s;
 }
 
 .grid23 {
@@ -68,9 +81,7 @@
 }
 .grid28 {
   grid-column: span 2;
- 
 }
 .grid30 {
   grid-column: span 3;
-
 }
