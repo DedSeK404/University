@@ -10,7 +10,7 @@ import "./Bureau.css";
 const Bureau = () => {
   return (
     <Container>
-      <h1 style={{ letterSpacing: "3px", paddingBottom: "40px" }}> Bureau</h1>
+      <h1 className="Thover-underline-animation" style={{ letterSpacing: "3px",marginBottom:"5%" }}> Bureau</h1>
       <Tabs
         defaultActiveKey="Bureau Actuel"
         className="mb-3"

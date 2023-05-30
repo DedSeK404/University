@@ -494,7 +494,7 @@ const Status = () => {
         style={{ margin: "5% auto" }}
         className={`stack ${voirPlus ? "expandedBox" : ""}`}
       >
-        <h1 style={{ letterSpacing: "3px" }}>Status</h1>
+        <h1 className="Shover-underline-animation" style={{ letterSpacing: "3px" }}>Status</h1>
         <motion.div ref={ref} animate={animation} className="grid-item">
           <p className="p">Titre 1 : La Constitution</p>
           <p className="line-clamp">

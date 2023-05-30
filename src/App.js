@@ -8,6 +8,7 @@ import Bureau from "./Components/Bureau/Bureau";
 import MenuModal from "./Components/Menu/MenuModal";
 import EspaceAssociation from "./Components/Espace Association/EspaceAssociation";
 import Album from "./Components/Album/Album";
+import Contact from "./Components/Contact/Contact";
 
 function App() {
   const [show, setShow] = useState(false);
@@ -23,6 +24,7 @@ function App() {
       <Adherents />
       <EspaceAssociation/>
       <Album/>
+      <Contact/>
     </div>
   );
 }

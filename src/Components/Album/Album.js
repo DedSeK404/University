@@ -166,7 +166,12 @@ const Album = () => {
           src={Pic4}
           alt="0"
         />
-        <h1 style={{ fontSize: "3rem", letterSpacing: "3px" }}>Album photo</h1>
+        <h1
+          className="Bhover-underline-animation"
+          style={{ letterSpacing: "3px", height: "30%" }}
+        >
+          Album photo
+        </h1>
         <motion.img
           ref={ref2}
           animate={animation2}

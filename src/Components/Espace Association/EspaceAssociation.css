@@ -1,22 +1,4 @@
-.nav-tabs .nav-item.show .nav-link,
-.nav-tabs .nav-link.active {
-  color: white;
-  background-color: #323539;
-  border: #323539 1px solid;
-}
-
-.nav-tabs {
-  border-bottom: none;
-}
-
-.nav-tabs .nav-link:hover {
-  border: gray 1px solid;
-}
-.nav-tabs .nav-link {
-  color: gray;
-}
-
-.Thover-underline-animation {
+.Ahover-underline-animation {
   display: inline-block;
   position: relative;
   color: black;
@@ -24,10 +6,9 @@
   cursor: pointer;
   font-size: 2.5rem;
   user-select: none;
-  
 }
 
-.Thover-underline-animation:after {
+.Ahover-underline-animation:after {
   content: "";
   position: absolute;
   width: 100%;
@@ -40,7 +21,7 @@
   transition: transform 0.25s ease-out;
 }
 
-.Thover-underline-animation:hover:after {
+.Ahover-underline-animation:hover:after {
   transform: scaleX(1);
   transform-origin: bottom left;
   cursor: pointer;
