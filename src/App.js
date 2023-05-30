@@ -9,6 +9,7 @@ import MenuModal from "./Components/Menu/MenuModal";
 import EspaceAssociation from "./Components/Espace Association/EspaceAssociation";
 import Album from "./Components/Album/Album";
 import Contact from "./Components/Contact/Contact";
+import Actualité from "./Components/Actualité/Actualité";
 
 function App() {
   const [show, setShow] = useState(false);
@@ -20,6 +21,7 @@ function App() {
       <Presentation />
       <MenuModal show={show} handleClose={handleClose} />
       <Status />
+      <Actualité/>
       <Bureau />
       <Adherents />
       <EspaceAssociation/>

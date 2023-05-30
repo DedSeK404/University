@@ -3,7 +3,6 @@ import Col from "react-bootstrap/Col";
 import Nav from "react-bootstrap/Nav";
 import Row from "react-bootstrap/Row";
 import Tab from "react-bootstrap/Tab";
-import Container from "react-bootstrap/esm/Container";
 import AdherentsTable from "./AdherentsTable";
 import { motion } from "framer-motion";
 import "./Adherents.css";
