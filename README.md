@@ -11,7 +11,7 @@
 <br />
 <div align="center">
   <a href="https://i.ibb.co/xLKhPvs/Logo.png">
-    <img src="https://i.ibb.co/xLKhPvs/Logo.png" alt="Logo" width="350" height="350">
+    <img src="https://i.ibb.co/xLKhPvs/Logo.png" alt="Logo" width="250" height="250">
   </a>
 
   <h3 align="center">University</h3>
@@ -84,7 +84,7 @@ These are all the dependencies that I used in my project
   npm install react-bootstrap
   npm install framer-motion
   npm install react-intersection-observer
-  npm install react-bootstrap
+ 
 
   ```
 
