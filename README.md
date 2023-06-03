@@ -92,7 +92,11 @@ These are all the dependencies that I used in my project
 
 ## Usage
 
-I recommend cloning the repo and running it to test and examine the responsiveness of the design and to see the animations embeded in each component of the website.
+I recommend cloning the repo and running it to test and examine the responsiveness of the design and to see the animations embeded in each component of the website and watching this short video explainer on my youtube channel:
+[youtube video](https://www.youtube.com/embed/rpH1X0Ak54g)
+ <a href="https://www.youtube.com/embed/rpH1X0Ak54g">
+    <img src="https://i.ibb.co/NnBxTmR/youtube.jpg" alt="Logo" width="1366" height="413">
+  </a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
